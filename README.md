@@ -5,7 +5,7 @@ A login and signup page for Ozex as part of an interview technical test, built w
 
 ## Installation and Setup Instructions
 
-Clone down this repository. You will need `node` and `npm` installed globally on your machine. 
+Clone this repository or download the zip. You will need `node` and `npm` installed globally on your machine. 
 
 Installation guide available here : https://docs.npmjs.com/downloading-and-installing-node-js-and-npm#osx-or-linux-node-version-managers
 
