@@ -1,0 +1,140 @@
+/* Mobile */
+[class*="col-"] {
+    width: 100%;
+}
+
+/*Desktop & Other*/
+/*Even if this is not being used at its fullest currently (every div is set to col 12 - 100% width)
+if something were to be added to the sides when viewing from Desktop
+this would make it easier to organize
+ */
+@media only screen and (min-width: 768px)
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container{
+    caret-color: transparent;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 21vh;
+    margin-bottom: 17vh;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+#header-logo {
+    width: 23vh;
+    box-sizing: border-box;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    box-sizing: border-box;
+}
+
+.input {
+    caret-color: black;
+    display: flex;
+    align-items: center;
+    width: 38vh;
+    margin: auto;
+    height: 5.25vh;
+    background: #f6f6f6;
+    border-radius: 13px;
+    box-sizing: border-box;
+    border-width: 0;
+    padding-left: 2vh;
+    box-shadow: #bbbdc3 0 0 10px;
+    font-family: Calibri, serif;
+    font-size: large;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.login-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 7.55vh;
+}
+
+#login-button {
+    background-color:#007aff;
+    border-width: 0;
+    padding: 2.2vh 6.2vh;
+    color: #dcecff;
+    font-family: Calibri, serif;
+    font-weight: bold;
+    font-size: 2vh;
+    border-radius: 39px;
+
+}
+
+#login-button:hover {
+    background-color: #005ecf; /* Slightly darker blue when hovered */
+    cursor: pointer;
+}
+
+.sign-up-section {
+    margin-top: 7.55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: Calibri, serif;
+    font-size: 1.7vh;
+}
+
+#sign-up-link {
+    text-decoration: none;
+    color:#4aa1ff;
+}
+
+.error-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Calibri, serif;
+    font-weight: bold;
+    font-size: 1.5vh
+}
+
+
+
+
+
