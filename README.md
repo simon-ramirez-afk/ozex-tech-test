@@ -11,14 +11,28 @@ Installation guide available here : https://docs.npmjs.com/downloading-and-insta
 
 Installation:
 
-`npm run build`
+Open a terminal in the folder where the repository was cloned. 
 
-![image](https://github.com/simon-ramirez-afk/ozex-tech-test/assets/93628482/31cca19d-a307-4927-b662-07b985a1affa)
+![image](https://github.com/simon-ramirez-afk/ozex-tech-test/assets/93628482/9d536e30-be7c-4a8a-9170-597795ef59fe)
 
-`npm install -g serve` This will install serve globaly on your machine
+run `npm install`
 
-![image](https://github.com/simon-ramirez-afk/ozex-tech-test/assets/93628482/8a58c494-cd58-43cc-8989-6ba4a2d04564)
+![image](https://github.com/simon-ramirez-afk/ozex-tech-test/assets/93628482/664ce689-f007-4c10-b8c4-516c6bf6c77c)
 
-`serve -s build` From here you can CTRL + left click either of the addresses and they will open up the website
+DO NOT RUN `npm audit fix --force` 
 
-![image](https://github.com/simon-ramirez-afk/ozex-tech-test/assets/93628482/1a6870d6-7c62-4390-b16e-72bb3a06194e)
+run `npm run build`
+
+![image](https://github.com/simon-ramirez-afk/ozex-tech-test/assets/93628482/e6ebc4df-0fcb-457a-a556-42edaf3c4aa9)
+
+run `npm install -g serve` This will install serve globaly on your machine
+
+![image](https://github.com/simon-ramirez-afk/ozex-tech-test/assets/93628482/d0a65205-0a12-4a4a-bf1a-26e7c6827aa0)
+
+run `serve -s build`
+
+![image](https://github.com/simon-ramirez-afk/ozex-tech-test/assets/93628482/5694a9f9-de12-4b61-8695-3ba65479a45a)
+
+From here you can CTRL + left click either of the addresses and they will open up the website
+
+
